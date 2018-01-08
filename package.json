@@ -1,0 +1,37 @@
+{
+    "name": "node-at",
+    "version": "0.0.1",
+    "description": "Library to execute AT commands with node.js",
+    "main": "./lib/at.js",
+    "author": "Alexander Zubakov <developer@xinit.ru>",
+    "license": "MIT",
+    "scripts": {
+        "test": "mocha test/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kolonist/node-at"
+    },
+    "bugs": {
+        "url": "https://github.com/kolonist/node-at/issues"
+    },
+    "keywords": [
+        "AT",
+        "serial",
+        "command",
+        "com",
+        "modem",
+        "module",
+        "gsm",
+        "umts",
+        "lte"
+    ],
+    "dependencies": {
+        "serialport": "latest"
+    },
+    "devDependencies": {
+        "eslint": "*",
+        "eslint-config-google": "*",
+        "mocha": "*"
+    }
+}
