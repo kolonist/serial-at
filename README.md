@@ -41,11 +41,11 @@ All asynchronous functions in this library return Promises.
 
 
 # Documentation
-- [Port]        (#port)
-- [constructor] (#constructornameoptions)
-- [open]        (#open)
-- [close]       (#close)
-- [at]          (#atcommand)
+- [Port](#port)
+- [constructor](#constructornameoptions)
+- [open](#open)
+- [close](#close)
+- [at](#atcommand)
 
 ## `Port`
 Class serves connection to radio-module, sends AT-commands and receives answers.
