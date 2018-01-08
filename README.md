@@ -57,7 +57,7 @@ Create new Port object with given options.
 **name**<br>
 Serial interface path (COM-port name), e.g. `/dev/ttyUSB3` or `COM3`.
 
-**options** [*optional*]<br>
+**options** *[optional]*<br>
 Key-value object with options to use in serial connection and when sendining AT commands.
 
 #### Awailable options are:
