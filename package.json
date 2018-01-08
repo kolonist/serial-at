@@ -1,5 +1,5 @@
 {
-    "name": "node-at",
+    "name": "serial-at",
     "version": "0.0.1",
     "description": "Library to execute AT commands with node.js",
     "main": "./lib/at.js",

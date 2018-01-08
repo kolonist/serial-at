@@ -8,7 +8,7 @@ It uses [serialport](https://www.npmjs.com/package/serialport) node package unde
 
 You can install it with this command:
 ```bash
-npm install node-at
+npm install serial-at
 ```
 
 
@@ -20,7 +20,7 @@ Usage is very simple (in example below we use async/await interface instead of p
 'use strict';
 
 // require lib
-const Port = require('node-at');
+const Port = require('serial-at');
 
 (async function main() {
     // create serial connection
