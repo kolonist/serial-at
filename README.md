@@ -42,7 +42,7 @@ All asynchronous functions in this library return Promises.
 
 # Documentation
 - [Port](#port)
-- [constructor](#constructornameoptions)
+- [constructor](#constructor-name--options)
 - [open](#open)
 - [close](#close)
 - [at](#atcommand)
