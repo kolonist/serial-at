@@ -10,10 +10,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/kolonist/node-at"
+        "url": "https://github.com/kolonist/serial-at"
     },
     "bugs": {
-        "url": "https://github.com/kolonist/node-at/issues"
+        "url": "https://github.com/kolonist/serial-at/issues"
     },
     "keywords": [
         "AT",
