@@ -1,6 +1,6 @@
 {
     "name": "serial-at",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Library to execute AT commands with node.js",
     "main": "./lib/at.js",
     "author": "Alexander Zubakov <developer@xinit.ru>",
@@ -30,8 +30,8 @@
         "serialport": "latest"
     },
     "devDependencies": {
-        "eslint": "*",
-        "eslint-config-google": "*",
-        "mocha": "*"
+        "eslint": "latest",
+        "eslint-config-google": "latest",
+        "mocha": "latest"
     }
 }

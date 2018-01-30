@@ -12,6 +12,7 @@ describe('Port class', async () => {
         this.timeout(10000);
         const port = new Port('/dev/ttyUSB3');
         await port.open();
+        await port.at('ATE0')
         assert.equal(await port.at('AT'), 'OK');
         await port.close();
     });
