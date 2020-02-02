@@ -114,6 +114,6 @@ port
 
 ***
 
-@license MIT<br>
-@version 0.0.1<br>
-@author Alexander Zubakov <developer@xinit.ru>
+@license MIT\
+@version 0.0.3\
+@author Alexander Russkiy <developer@xinit.ru>
