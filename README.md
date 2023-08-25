@@ -50,7 +50,7 @@ All asynchronous functions in this library return Promises.
 ## `Port`
 Class serves connection to radio-module, sends AT-commands and receives answers.
 
-## `constructor ([, options])`
+## `constructor (options)`
 Create new Port object with given options.
 
 ### Parameters
