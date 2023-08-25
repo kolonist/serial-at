@@ -1,6 +1,6 @@
 {
     "name": "serial-at",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Library to execute AT commands with node.js",
     "main": "./lib/at.js",
     "author": "Alexander Russkiy <developer@xinit.ru>",
