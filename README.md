@@ -116,6 +116,6 @@ port
 
 ***
 
-@license MIT\
-@version 0.0.3\
+@license MIT \
+@version 0.0.4 \
 @author Alexander Russkiy <developer@xinit.ru>
