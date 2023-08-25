@@ -24,7 +24,7 @@ const Port = require('serial-at');
 
 (async function main() {
     // create serial connection
-    const port = new Port('/dev/ttyUSB3');
+    const port = new Port({path:'/dev/ttyUSB3'});
 
     // open serial connection
     await port.open();
@@ -50,17 +50,19 @@ All asynchronous functions in this library return Promises.
 ## `Port`
 Class serves connection to radio-module, sends AT-commands and receives answers.
 
-## `constructor (name [, options])`
+## `constructor ([, options])`
 Create new Port object with given options.
 
 ### Parameters
-**name**<br>
-Serial interface path (COM-port name), e.g. `/dev/ttyUSB3` or `COM3`.
 
-**options** *[optional]*<br>
+**options**<br>
 Key-value object with options to use in serial connection and when sendining AT commands.
 
+**path** *[required]*<br>
+Serial interface path (COM-port name), e.g. `/dev/ttyUSB3` or `COM3`.
+
 #### Awailable options are:
+
 **dataBits** *[optional, default: 8]*<br>
 Must be one of these: 8, 7, 6, or 5.
 
